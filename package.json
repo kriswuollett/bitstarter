@@ -1,8 +1,13 @@
 {
-  "name": "node-example",
+  "name": "bitstarter",
   "version": "0.0.1",
   "dependencies": {
     "express": "2.5.x"
+  },
+  "devDependencies": {
+    "commander": "*",
+    "cheerio": "*",
+    "restler": "*"
   },
   "engines": {
     "node": "0.8.x",
