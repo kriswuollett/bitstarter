@@ -108,8 +108,6 @@ if(require.main == module) {
         .option('-f, --file <html_file>', 'Path to index.html', clone(assertFileExists), HTMLFILE_DEFAULT)
         .option('-u, --url <url>', 'Path to URL')
         .parse(process.argv);
-    console.log("program.file: %s", program.file);
-    console.log("program.url: %s", program.url);
     if (typeof program.file === 'undefined' && typeof program.url === 'undefined') {
 	console.log("Either -url or -file must be specified. Exiting.");
 	process.exit(1);
