@@ -5,4 +5,5 @@ A crowd funding site being developed as part of homework for the [Coursera](http
 [Startup Engineering](https://class.coursera.org/startup-001).
 
 &copy; Kristopher Wuollett
+
 All Rights Reserved
